@@ -81,10 +81,10 @@
 //     try {
 //         const response = await axios.get('http://127.0.0.1:5000/test-connection');
 //         if (response.status === 200) {
-//             const receivedMessage = response.data.message; // Get the message from the response
+//             const receivedMessage = response.data.message; 
             
-//             setRandomMessage(receivedMessage); // Store the random message in the state
-//             setToastMessage(receivedMessage); // Display the received message in the toast
+//             setRandomMessage(receivedMessage);
+//             setToastMessage(receivedMessage); 
 //         } else {
 //             setToastMessage('Failed to connect to OpenAI Chat GPT API');
 //         }
